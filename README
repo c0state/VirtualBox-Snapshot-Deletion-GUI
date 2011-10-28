@@ -1,0 +1,10 @@
+VirtualBox Snapshot Deletion GUI
+
+The VirtualBox front-end currently only allows deletion of one snapshot at a time.  This is tedious for machines that have accumulated many snapshots and where you want to delete a series of older ones.  This tool allows you to select multiple snapshots for a given machine and delete them.  It will then go and delete them in sequence.
+
+Written in Python using IronPython
+- utilizes .NET for the GUI
+- application logic in Python
+
+This application was tested on Windows but may work on OS X or Linux with a little work.  Essentially, the application needs to be compiled to an EXE and then run with Mono.
+
